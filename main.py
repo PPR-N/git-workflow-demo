@@ -1,9 +1,25 @@
-def calculate_sum(a, b):
-    """Return the sum of two numbers."""
+from typing import Union
+
+Number = Union[int, float]
+
+
+def calculate_sum(a: Number, b: Number) -> Number:
+    """Return the sum of two numbers.
+
+    :param a: first addend
+    :param b: second addend
+    :return: the sum of a and b
+    """
     return a + b
 
 
-def calculate_product(a, b):
+def calculate_product(a: Number, b: Number) -> Number:
+    """Return the product of two numbers.
+
+    :param a: first factor
+    :param b: second factor
+    :return: the product of a and b
+    """
     return a * b
 
 
