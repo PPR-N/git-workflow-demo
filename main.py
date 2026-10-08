@@ -23,6 +23,11 @@ def calculate_product(a: Number, b: Number) -> Number:
     return a * b
 
 
+def calculate_difference(a, b):
+    return a - b
+
+
 if __name__ == '__main__':
     print('Sum:', calculate_sum(10, 20))
     print('Product:', calculate_product(10, 20))
+    print('Difference:', calculate_difference(20, 10))
